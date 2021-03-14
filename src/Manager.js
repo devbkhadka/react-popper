@@ -10,6 +10,9 @@ export type ManagerProps = {
   children: React.Node,
 };
 
+// Changes in master branch to cause conflict
+// this will cause conflict during rebase
+
 export function Manager({ children }: ManagerProps) {
   const [referenceNode, setReferenceNode] = React.useState<?Element>(null);
 
