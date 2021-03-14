@@ -39,3 +39,7 @@ export function Manager({ children }: ManagerProps) {
     </ManagerReferenceNodeContext.Provider>
   );
 }
+
+// Some changes in manager.js
+// I will make this multiline
+// Just to test
